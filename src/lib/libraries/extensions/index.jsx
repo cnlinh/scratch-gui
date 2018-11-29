@@ -25,6 +25,13 @@ import wedoButtonImage from './peripheral-connection/wedo/wedo-button-illustrati
 
 export default [
     {
+        name: 'MyExtension',
+        extensionURL: 'myExtension',
+        iconURL: musicImage,
+        description: 'eh',
+        featured: true
+    },
+    {
         name: (
             <FormattedMessage
                 defaultMessage="Music"
